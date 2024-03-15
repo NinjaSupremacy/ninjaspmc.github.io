@@ -1,0 +1,29 @@
+{
+  "name": "Ninja Spmc",
+  "version": "1.0.0",
+  "description": "Projetos do Ninja Spmc",
+  "main": "index.js",
+  "scripts": {
+    "start": "sh iniciar.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "SEM_URL_GATINHA"
+  },
+  "keywords": [
+    "drex"
+  ],
+  "author": "Ninja Spmc",
+  "license": "ISC",
+  "bugs": {
+    "url": "SEM_URL_GATINHA"
+  },
+  "dependencies": {
+     "router": "^1.3.6",
+     "express": "^4.17.3",
+     "path": "^0.12.7",
+     "multer": "^1.4.4"
+  },
+  "homepage": "SEM_URL_GATINHA"
+}
