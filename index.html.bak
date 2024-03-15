@@ -143,7 +143,7 @@
       <h2>Ninja APIs</h2>
       <p>Site de APIs diversas para desenvolvedores com token personalizada</p>
     </div>
-    <div class="frame" onclick="location.href='https://drex.ninjaspmc.com.br'">
+    <div class="frame" onclick="location.href='https://drexbot.ninjaspmc.com.br'">
       <div class="logo"><img src="https://telegra.ph/file/608b51914a693f50cb6d0.jpg"></div>
       <h2>Drex</h2>
       <p>Site do melhor bot de WhatsApp com muitas funcionalidades</p>
