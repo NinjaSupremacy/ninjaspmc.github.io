@@ -1,7 +1,7 @@
 bla = process.cwd()
 __path = process.cwd()
 //=>=>=>=>=>=>=>=[@]=<=<=<=<=<=<=<=<=//
-//const PORT = process.env.PORT || 80
+const PORT = process.env.PORT || 80
 //=>=>=>=>=>=>=>=[@]=<=<=<=<=<=<=<=<=//
 const express = require('express')
 const path = require("path");
@@ -21,6 +21,6 @@ res.sendFile(path.join(__dirname, "./inicio.html"))
 app.use(router);
 
 //////MOSTRA SE O APP FOI ABERTO
-/* app.listen(PORT, () => {
+app.listen(PORT, () => {
 console.log('Aplicativo aberto na porta: ' + PORT)
 })
