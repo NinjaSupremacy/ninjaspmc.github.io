@@ -31,10 +31,6 @@
 .section-servicos .servicos i img { border:none; width:50px; height:50px; margin:auto; }
 .section-servicos .servicos h2    { font-size: 22px; line-height: 36px; margin-bottom: 10px; margin-top: 5px; font-weight:600; color:#2d2d2d; font-family: 'Lato', sans-serif; text-align: center;}
 .section-servicos .servicos p     { font-size: 15px; font-weight: 400; padding: 0 15px; line-height: 22px; color: #747681; font-family: 'Lato', sans-serif; text-align: center;}
-.section-servicos .servicos h2 a {
-    text-decoration: none; /* Remove o sublinhado dos links */
-    color: inherit; /* Mantém a cor do texto padrão */
-}
 
 /*Controle da Paginação carrossel*/
 .boxSlide       { width:100%; overflow:hidden; margin:auto; }
