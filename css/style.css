@@ -22,18 +22,85 @@
 .section-banner .row .col-right-b .txt     { color:#696969; font-size:18px; font-family: 'Lato', sans-serif; margin-bottom:10px; width:100%; float:left; line-height:30px; }
 
 /*Serviços*/
-.section-servicos          { padding:10px 0px; background-color:#ebebeb; }
-.section-servicos .content { float:left; padding:1em 0; }
-.section-servicos .title   { width: 100%; float:left; margin-bottom:20px; font-size:1.8em; font-family: 'Lato', sans-serif; font-weight:700; color:#f00; text-align: center; padding-bottom: 1em; }
-.section-servicos .row            { width:100%; float:left; }
-.section-servicos .servicos       { background-color:#fff; width: 100%; float: left; padding: 20px 0; margin-bottom: 25px; font-size: 30px; border-radius: 15px; }
-.section-servicos .servicos i     { display:flex; margin:auto; background-color:#f00; width:80px; height:80px; border-radius:50px; align-items: center; align-content:center; }
-.section-servicos .servicos i img { border:none; width:50px; height:50px; margin:auto; }
-.section-servicos .servicos h2    { font-size: 22px; line-height: 36px; margin-bottom: 10px; margin-top: 5px; font-weight:600; color:#2d2d2d; font-family: 'Lato', sans-serif; text-align: center;}
-.section-servicos .servicos p     { font-size: 15px; font-weight: 400; padding: 0 15px; line-height: 22px; color: #747681; font-family: 'Lato', sans-serif; text-align: center;}
+.section-servicos {
+    padding: 10px 0px;
+    background-color: #ebebeb;
+}
+
+.section-servicos .content {
+    float: left;
+    padding: 1em 0;
+}
+
+.section-servicos .title {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #f00;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.section-servicos .row {
+    width: 100%;
+    float: left;
+}
+
+.section-servicos .servicos {
+    background-color: #fff;
+    width: 100%;
+    float: left;
+    padding: 20px 0;
+    margin-bottom: 25px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.section-servicos .servicos i {
+    display: flex;
+    margin: auto;
+    background-color: #f00;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    align-items: center;
+    align-content: center;
+}
+
+.section-servicos .servicos i img {
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.section-servicos .servicos h2 {
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: #2d2d2d;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.section-servicos .servicos p {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 15px;
+    line-height: 22px;
+    color: #747681;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
 .section-servicos .servicos h2 a {
-    text-decoration: none; /* Remove o sublinhado dos links */
-    color: inherit; /* Mantém a cor do texto padrão */
+    text-decoration: none !important; /* Remove o sublinhado dos links */
+    color: inherit !important; /* Mantém a cor do texto padrão */
 }
 
 /*Controle da Paginação carrossel*/
