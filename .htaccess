@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^ninjaapis$ https://ninjaapis.ninjaspmc.com.br [R=301,L]
