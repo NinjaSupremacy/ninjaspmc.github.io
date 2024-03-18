@@ -98,9 +98,9 @@
     text-align: center;
 }
 
-.section-servicos a {
-    text-decoration: none;
-    color: inherit;
+.section-servicos .servicos h2 a {
+    text-decoration: none !important; /* Remove o sublinhado dos links */
+    color: inherit !important; /* Mantém a cor do texto padrão */
 }
 
 /*Controle da Paginação carrossel*/
