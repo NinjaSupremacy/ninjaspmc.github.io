@@ -1,2 +1,3 @@
 RewriteEngine On
-RewriteRule ^ninjaapis$ https://ninjaapis.ninjaspmc.com.br [R=301,L]
+RewriteRule ^drex$ http://example.com/destino1 [R=301,L]
+RewriteRule ^ninjaapis$ http://example.com/destino2 [R=301,L]
